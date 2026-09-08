@@ -36,7 +36,6 @@ func main() {
 		log.Fatal(http.ListenAndServe("localhost:8000", nil))
 		return
 	}
-	//!+main
 	lissajous(os.Stdout)
 }
 
